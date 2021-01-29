@@ -228,7 +228,7 @@ void reset_parameters() {
 	Laena_lvl_15.id = 14;
 
 	//Joseph lvl 15
-	Joseph_lvl_15.hp = 145.0f;
+	Joseph_lvl_15.hp = 245.0f;
 	Joseph_lvl_15.attack = 107.0f;
 	Joseph_lvl_15.defense = 136.0f;
 	Joseph_lvl_15.stamina = 115;
@@ -3510,10 +3510,10 @@ void chungusFight() {
 }
 
 int main() {
-	for (int i = 0; i < 100; i++)
+	for (int i = 0; i < 1; i++)
 	{
 		reset_parameters();
-		fight1v1(Joseph_lvl_10, Enemy_psychic_lvl_10);
+		fight1v1(Bermudi_lvl_1, Enemy_teleporter_lvl_1);
 		//chungusFight();
 	}
 	std::cout << std::endl;
